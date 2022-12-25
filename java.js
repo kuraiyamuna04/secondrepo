@@ -1,0 +1,21 @@
+
+$(document).ready(function(){
+   $('button#one').on('click',function(){
+    $(".special1").slideToggle()
+   })
+   $('button#two').on('click',function(){
+      $(".special2").slideToggle()
+     })
+   $('button#three').on('click',function(){
+      $(".special3").slideToggle()
+     })
+   $('button#four').on('click',function(){
+      $(".special4").slideToggle()
+     })
+   $('button#five').on('click',function(){
+      $(".special5").slideToggle()
+     })
+     $('button#six').on('click',function(){
+      $(".special6").slideToggle()
+     })
+})
